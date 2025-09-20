@@ -1,0 +1,141 @@
+/* Header Styles */
+.header {
+    background: var(--surface);
+    box-shadow: var(--shadow);
+    padding: 1rem 2rem;
+  }
+  
+  .header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary);
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: var(--text-primary);
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    background-color: var(--primary);
+    color: white;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background: var(--surface);
+    padding: 1rem;
+    text-align: center;
+    color: var(--text-secondary);
+    margin-top: auto;
+  }
+  
+  /* Sweet Item Styles */
+  .sweet-item {
+    position: relative;
+  }
+  
+  .sweet-item h3 {
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+  }
+  
+  .sweet-item .category {
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  .sweet-item .price {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin: 0.5rem 0;
+  }
+  
+  .sweet-item .quantity {
+    margin-bottom: 1rem;
+  }
+  
+  .quantity.in-stock {
+    color: var(--success);
+  }
+  
+  .quantity.out-of-stock {
+    color: var(--error);
+  }
+  
+  /* Search Bar Styles */
+  .search-bar {
+    margin-bottom: 2rem;
+  }
+  
+  .search-input {
+    width: 100%;
+    max-width: 500px;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 25px;
+    font-size: 1rem;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .search-input:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(168, 218, 220, 0.2);
+  }
+  
+  /* Loading and Error States */
+  .loading {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-secondary);
+  }
+  
+  .error {
+    text-align: center;
+    padding: 2rem;
+    color: var(--error);
+  }
+  
+  /* Admin Panel Styles */
+  .admin-actions {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .sweet-actions {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .sweet-actions .btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+  }
+  
