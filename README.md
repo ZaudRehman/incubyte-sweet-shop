@@ -1,4 +1,5 @@
 # 🍭Sweet Shop Management System 🍫🍬
+_- By Zaud Rehman_
 
 A full-stack web application for managing a sweet shop's inventory, built with FastAPI (Python) backend and React (TypeScript) frontend.
 
@@ -257,7 +258,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📞 Support
 
-For support, email support@sweetshop.com or create an issue in the repository.
+For support, email zaudrehman@gmail.com or create an issue in the repository.
 
 ---
 
